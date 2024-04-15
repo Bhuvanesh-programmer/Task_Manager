@@ -1,0 +1,67 @@
+body{
+  background-image: url(https://directlinedev.com/media/services/service/background/background_35_2UDIpF7.wide.jpeg);
+}
+table{
+    border-spacing: 0px;
+    padding: 10px;
+}
+td {
+  color: white;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid white;
+  font-size: larger;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(86, 142, 184);
+}
+tr:nth-child(odd) {
+  background-color: rgba(79, 82, 82, 0.246);
+}
+tr:first-child {
+  background-color: rgb(26, 26, 62);
+}
+
+.del{
+  background-color:red;
+  border-radius: 10px;
+  margin-right: 5px;
+  color: white;
+}
+.update{
+  background-color:rgb(39, 254, 89);
+  border-radius: 10px;
+  margin-left: 5px;
+}
+.top{
+  text-align: center;
+  font-size: xx-large;
+}
+.first{
+  text-align: center;
+  font-size: xx-large;
+}
+.infields{
+  display: flex;
+  justify-content:center;
+  font-size: xx-large;
+}
+input{
+  box-sizing: border-box;
+  width: 20%;
+  border-radius: 5px;
+}
+h1{
+  color: rgb(90, 195, 195);
+}
+button{
+  border-radius: 10px;
+}
+#stopwatch{
+  color: beige;
+}
+.fil{
+  color:rgb(90, 195, 195) ;
+}

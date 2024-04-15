@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="top">
+      <h1>Task Manager</h1>
+    </div>
+    <br />
+    <div class="infields">
+      <input type="text" placeholder="Task" id="Task" />
+      <input type="text" placeholder="Description" id="Description" />
+      <button id="chk" onclick="AddTask()">Add</button>
+      <div id="stopwatch">00:00:00</div>
+      <button id="startstop" onclick="startstop()">Start</button>
+      <button onclick="Reset()">Reset</button>
+    </div>
+    <br />
+    <div class="first">
+        <div class="fil">Filter</div>    
+      <select name="catagory" id="selid" onchange="selectvalue()">
+        <option value="None">None</option>
+        <option value="Meeting">Meeting</option>
+        <option value="Project-abc">Project-abc</option>
+        <option value="Presonal Break">Presonal Break</option>
+      </select>
+    </div>
+    <table id="myTable"></table>
+    <script src="index.js"></script>
+  </body>
+</html>
